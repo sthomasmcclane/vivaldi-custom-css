@@ -1,0 +1,8 @@
+#mail_detail .mail-detail-header {
+	max-height: 50px; /*show only subject*/
+	transition: max-height 3s linear;
+}
+
+#mail_detail .mail-detail-header:hover {
+	max-height: 500px; /* expand with hover on subject */
+}

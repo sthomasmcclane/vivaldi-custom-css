@@ -1,0 +1,8 @@
+/* Address field progress bar foreground */
+.UrlBar-AddressField .pageload .pageload-indicator::-webkit-progress-value {
+  background-color: var(--colorHighlightFg);
+}
+/* Address field progress bar background */
+.UrlBar-AddressField .pageload .pageload-indicator::-webkit-progress-bar {
+  background-color: var(--colorHighlightBg);
+}

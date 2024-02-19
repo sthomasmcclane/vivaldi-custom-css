@@ -1,0 +1,10 @@
+.tab
+
+{border-bottom-left-radius: var(--radiusHalf) !important;
+border-bottom-right-radius: var(--radiusHalf) !important; 
+border-top-right-radius: var(--radiusHalf) !important;
+border-top-left-radius: var(--radiusHalf) !important;
+margin-left: 2px !important;
+margin-right: 2px !important;
+margin-top: 2px !important;
+margin-bottom: 2px !important;}
