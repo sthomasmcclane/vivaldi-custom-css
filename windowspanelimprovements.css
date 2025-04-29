@@ -1,0 +1,22 @@
+/* Active panel button highlighter */
+#switch button.active {fill: var(--colorHighlightBgDark);}
+
+/* Hover effect for Folder arrow */
+.vivaldi-tree .tree-row .expand-icon:hover {transform: scale(1.25);}
+
+/* Dimmed title for Hibernated tab list */
+#window-panel .vivaldi-tree .tree-item:not(:hover) .tree-row:not([data-selected]) .discarded ~ .title {opacity: .5;}
+
+/* Tiny dot Unread tab marker */
+/* unread marker */
+#window-panel .vivaldi-tree .title.unread:before {content: '\00b7'; position:absolute; left:33px; font-style: normal;}
+
+/* Marker & Background highlighter for Active tab */
+/* active tab marker */
+#window-panel .vivaldi-tree .title.active:before {content: '\039f';}
+
+/* active tab highlighter */
+#window-panel .vivaldi-tree .title.active:after {content: ''; position: absolute; left: 0; width: -webkit-fill-available; height: 24px; background: var(--colorHighlightBgAlpha); mix-blend-mode: overlay;}
+
+/* Hover highlighter for Tab list */
+.vivaldi-tree .tree-row:not([data-selected]) label:hover {-webkit-text-fill-color: var(--colorHighlightBgDark);}
